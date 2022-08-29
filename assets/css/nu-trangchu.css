@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: SVN-Gotham;
-    src: url(../font/SVN-Gotham\ Book.otf);
+    src: url(./font/SVN-Gotham\ Book.otf);
 }
 ul{
     list-style: none;
@@ -28,7 +28,6 @@ a{
     justify-content: space-between;
     height: 100%;
     max-width: 160rem;
-    width: 1000px;
 }
 .menu-header-logo {
     display: inline-block;
@@ -49,7 +48,7 @@ a{
     height: 28px;
 }
 .menu-header-logo span.logo-1{
-    background-image: url(../img/original-logo-tab-1.png);
+    background-image: url(./img/original-logo-tab-1.png);
     display: block;
     background-size: 100px;
     height: 28px;
@@ -58,7 +57,7 @@ a{
     margin-top: 4px;
 }
 .menu-header-logo span.logo-2{
-    background-image: url(../img/custom-logo-tab-2.png);
+    background-image: url(./img/custom-logo-tab-2.png);
     display: block;
     background-size: 120px;
     background-repeat: no-repeat;
@@ -68,7 +67,7 @@ a{
     margin-top: 7px;
 }
 .menu-header-logo span.logo-3{
-    background-image: url(../img/neo-logo-tab-3.png);
+    background-image: url(./img/neo-logo-tab-3.png);
     display: block;
     background-size:100px;
     background-repeat: no-repeat;
@@ -200,7 +199,7 @@ a{
 .header-middle-bottom a:hover::after{
     width: 100%;
 }
-.header-middle-bottom li:nth-child(2) a::after{
+.header-middle-bottom li:nth-child(3) a::after{
     width: 100%;
 }
 .list-logo img{
@@ -229,6 +228,7 @@ a{
     width: 50%;
     text-align: right;
     padding: 35px 40px;
+    opacity: 0.3;
 
 }
 .slide a.slide-right{
@@ -237,7 +237,6 @@ a{
     width: 50%;
     text-align: left;
     padding: 35px 40px;
-    opacity: 0.3;
     transition: all 0.3s;
 }
 .slide a.slide-right:hover{
@@ -302,74 +301,8 @@ a{
 .product-text,.product-price{
     text-align: center;
 }
-.product-list span.item-1{
-    background-image: url(../img/product-v5.jpg);
-    display: block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-}
-.product-list span.item-1:hover{
-    background-image: url(../img/product-v6.jpg);
-}
-.product-list span.item-2{
-    background-image: url(../img/product-nam-1.jpg);
-    display: block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-}
-.product-list span.item-2:hover{
-    background-image: url(../img/product-nam-2.jpg);
-}
-.product-list span.item-3{
-    background-image: url(../img/product-v1.jpg);
-    display: block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-}
-.product-list span.item-3:hover{
-    background-image: url(../img/product-v2.jpg);
-}
-.product-list span.item-4{
-    background-image: url(../img/product-nam-3.jpg);
-    display: block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-}
-.product-list span.item-4:hover{
-    background-image: url(../img/product-nam-4.jpg);
-}
-.product-list span.item-5{
-    background-image:url(../img/product-nam-5.jpg);
-    display: block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-}
-.product-list span.item-5:hover{
-    background-image:   url(../img/product-nam-6.jpg);
-}
-.product-list span.item-6{
-    background-image: url(../img/product-nam-7.jpg);
-    display: block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-}
-.product-list span.item-6:hover{
-    background-image: url(../img/product-nam-8.jpg);
-}
 /*  */
-.product-list span.item-7{
+.product-list span.item-1{
     background-image: url(../img/v3.jpg);
     display: block;
     background-size: 300px;
@@ -377,10 +310,10 @@ a{
     height: 300px;
     width: 300px;
 }
-.product-list span.item-7:hover{
-    background-image: url(../img/v4.jpg);
+.product-list span.item-1:hover{
+    background-image: url(../img/v3.jpg);
 }
-.product-list span.item-8{
+.product-list span.item-2{
     background-image: url(../img/v5.jpg);
     display: block;
     background-size: 300px;
@@ -388,10 +321,10 @@ a{
     height: 300px;
     width: 300px;
 }
-.product-list span.item-8:hover{
+.product-list span.item-2:hover{
     background-image: url(../img/v6.jpg);
 }
-.product-list span.item-9{
+.product-list span.item-3{
     background-image: url(../img/product-nam-9.jpg);
     display: block;
     background-size: 300px;
@@ -399,10 +332,10 @@ a{
     height: 300px;
     width: 300px;
 }
-.product-list span.item-9:hover{
-    background-image: url(../img/product-nam-10.jpg);
+.product-list span.item-3:hover{
+    background-image: url(../img/pro);
 }
-.product-list span.item-10{
+.product-list span.item-4{
     background-image: url(../img/v1.jpg);
     display: block;
     background-size: 300px;
@@ -410,13 +343,77 @@ a{
     height: 300px;
     width: 300px;
 }
-.product-list span.item-10:hover{
+.product-list span.item-4:hover{
     background-image: url(../img/v2.jpg);
 }
-/*  */
-/*  */
+.product-list span.item-5{
+    background-image: url(../img/nu-1.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-5:hover{
+    background-image: url(../img/nu-2.jpg);
+}
+.product-list span.item-6{
+    background-image: url(../img/nu-3.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-6:hover{
+    background-image: url(../img/nu-4.jpg);
+}
+.product-list span.item-7{
+    background-image: url(../img/nu-5.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-7:hover{
+    background-image: url(../img/nu-6.jpg);
+}
+.product-list span.item-8{
+    background-image: url(../img/nu-7.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-8:hover{
+    background-image: url(../img/nu-8.jpg);
+}
+.product-list span.item-9{
+    background-image: url(../img/nu-9.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-9:hover{
+    background-image: url(../img/nu-10.jpg);
+}
+.product-list span.item-10{
+    background-image: url(../img/nu-11.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-10:hover{
+    background-image: url(../img/nu-12.jpg);
+}
 .product-list span.item-11{
-    background-image: url(../img/iconic-1.jpg);
+    background-image: url(../img/nu-13.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -424,10 +421,10 @@ a{
     width: 300px;
 }
 .product-list span.item-11:hover{
-    background-image: url(../img/iconic-2.jpg);
+    background-image: url(../img/nu-14.jpg);
 }
 .product-list span.item-12{
-    background-image: url(../img/iconic-3.jpg);
+    background-image: url(../img/nu-15.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -435,10 +432,10 @@ a{
     width: 300px;
 }
 .product-list span.item-12:hover{
-    background-image: url(../img/iconic-4.jpg);
+    background-image: url(../img/nu-16.jpg);
 }
 .product-list span.item-13{
-    background-image: url(../img/iconic-5.jpg);
+    background-image: url(../img/nu-17.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -446,10 +443,13 @@ a{
     width: 300px;
 }
 .product-list span.item-13:hover{
-    background-image: url(../img/iconic-6.jpg);
+    background-image: url(../img/nu-17.jpg);
 }
+/* 
+///////////////////////////////////////////////////
+*/
 .product-list span.item-14{
-    background-image: url(../img/iconic-7.jpg);
+    background-image: url(../img/nu2-1.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -457,10 +457,10 @@ a{
     width: 300px;
 }
 .product-list span.item-14:hover{
-    background-image: url(../img/iconic-8.jpg);
+    background-image: url(../img/nu2-2.jpg);
 }
 .product-list span.item-15{
-    background-image: url(../img/iconic-9.jpg);
+    background-image: url(../img/nu2-3.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -468,10 +468,10 @@ a{
     width: 300px;
 }
 .product-list span.item-15:hover{
-    background-image: url(../img/iconic-10.jpg);
+    background-image: url(../img/nu2-4.jpg);
 }
 .product-list span.item-16{
-    background-image: url(../img/iconic-11.jpg);
+    background-image: url(../img/nu2-5.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -479,10 +479,10 @@ a{
     width: 300px;
 }
 .product-list span.item-16:hover{
-    background-image: url(../img/iconic-12.jpg);
+    background-image: url(../img/nu2-6.jpg);
 }
 .product-list span.item-17{
-    background-image: url(../img/iconic-13.jpg);
+    background-image: url(../img/nu2-7.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -490,10 +490,10 @@ a{
     width: 300px;
 }
 .product-list span.item-17:hover{
-    background-image: url(../img/iconic-14.jpg);
+    background-image: url(../img/nu2-8.jpg);
 }
 .product-list span.item-18{
-    background-image: url(../img/iconic-15.jpg);
+    background-image: url(../img/nu2-9.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -501,11 +501,10 @@ a{
     width: 300px;
 }
 .product-list span.item-18:hover{
-    background-image: url(../img/iconic-16.jpg);
+    background-image: url(../img/nu2-10.jpg);
 }
-/*  */
 .product-list span.item-19{
-    background-image: url(../img/gatsby-1.jpg);
+    background-image: url(../img/nu2-11.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -513,10 +512,10 @@ a{
     width: 300px;
 }
 .product-list span.item-19:hover{
-    background-image: url(../img/gatsby-2.jpg);
+    background-image: url(../img/nu2-12.jpg);
 }
 .product-list span.item-20{
-    background-image: url(../img/gatsby-3.jpg);
+    background-image: url(../img/nu2-13.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -524,10 +523,10 @@ a{
     width: 300px;
 }
 .product-list span.item-20:hover{
-    background-image: url(../img/gatsby-4.jpg);
+    background-image: url(../img/nu2-14.jpg);
 }
 .product-list span.item-21{
-    background-image: url(../img/gatsby-5.jpg);
+    background-image: url(../img/nu2-15.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -535,11 +534,10 @@ a{
     width: 300px;
 }
 .product-list span.item-21:hover{
-    background-image: url(../img/gatsby-6.jpg);
+    background-image: url(../img/nu2-16.jpg);
 }
-/*  */
 .product-list span.item-22{
-    background-image: url(../img/thebox-5.jpg);
+    background-image: url(../img/nu2-17.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -547,10 +545,10 @@ a{
     width: 300px;
 }
 .product-list span.item-22:hover{
-    background-image: url(../img/thebox-8.jpg);
+    background-image: url(../img/nu2-18.jpg);
 }
 .product-list span.item-23{
-    background-image: url(../img/thebox-6.jpg);
+    background-image: url(../img/nu2-19.jpg);
     display: block;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -558,8 +556,222 @@ a{
     width: 300px;
 }
 .product-list span.item-23:hover{
+    background-image: url(../img/nu2-20.jpg);
+}
+.product-list span.item-24{
+    background-image: url(../img/nu2-21.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-24:hover{
+    background-image: url(../img/nu2-22.jpg);
+}
+/* /////////// */
+.product-list span.item-25{
+    background-image: url(../img/iconic-1.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-25:hover{
+    background-image: url(../img/iconic-2.jpg);
+}
+.product-list span.item-26{
+    background-image: url(../img/iconic-3.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-26:hover{
+    background-image: url(../img/iconic-4.jpg);
+}
+.product-list span.item-27{
+    background-image: url(../img/iconic-5.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-27:hover{
+    background-image: url(../img/iconic-6.jpg);
+}
+.product-list span.item-28{
+    background-image: url(../img/nu3-1.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-28:hover{
+    background-image: url(../img/nu3-2.jpg);
+}
+.product-list span.item-29{
+    background-image: url(../img/nu3-3.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-29:hover{
+    background-image: url(../img/nu3-4.png);
+}
+.product-list span.item-30{
+    background-image: url(../img/nu3-5.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-30:hover{
+    background-image: url(../img/nu3-6.jpg);
+}
+.product-list span.item-31{
+    background-image: url(../img/nu3-7.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-31:hover{
+    background-image: url(../img/nu3-8.jpg);
+}
+.product-list span.item-32{
+    background-image: url(../img/nu3-9.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-32:hover{
+    background-image: url(../img/nu3-10.jpg);
+}
+.product-list span.item-33{
+    background-image: url(../img/nu3-11.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-33:hover{
+    background-image: url(../img/nu3-12.jpg);
+}
+.product-list span.item-34{
+    background-image: url(../img/nu3-13.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-34:hover{
+    background-image: url(../img/nu3-14.jpg);
+}
+/* //// */
+.product-list span.item-35{
+    background-image: url(../img/gatsby-1.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-35:hover{
+    background-image: url(../img/gatsby-2.jpg);
+}
+.product-list span.item-36{
+    background-image: url(../img/gatsby-3.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-36:hover{
+    background-image: url(../img/gatsby-4.jpg);
+}
+.product-list span.item-37{
+    background-image: url(../img/gatsby-5.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-37:hover{
+    background-image: url(../img/gatsby-6.jpg);
+}
+/* /// */
+.product-list span.item-38{
+    background-image: url(../img/thebox-2.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-38:hover{
+    background-image: url(../img/thebox-pink.jpg);
+}
+.product-list span.item-39{
+    background-image: url(../img/thebox-3.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-39:hover{
+    background-image: url(../img/thebox-pink.jpg);
+}
+.product-list span.item-40{
+    background-image: url(../img/thebox-1.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-40:hover{
+    background-image: url(../img/thebox.jpg);
+}
+.product-list span.item-41{
+    background-image: url(../img/thebox-4.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-41:hover{
+    background-image: url(../img/thebox-8.jpg);
+}
+.product-list span.item-42{
+    background-image: url(../img/thebox-7.jpg);
+    display: block;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.product-list span.item-42:hover{
     background-image: url(../img/hot-box-2.jpg);
 }
+/* 
+ */
 /* end */
 /* footer */
 .footer{
