@@ -47,12 +47,15 @@
     height: 20px;
     display: none;
 }
-@media (max-width: 1023px) {
+/* mobile and tablet */
+@media only screen and (max-width: 63.9375em) {
     .header{
         height: 400px !important;
     }
     .text-slide{
         top: 20% !important;
+        font-size: 30px !important;
+        margin-top: 108px !important;
     }
     .header-top-container{
         display: block !important;
@@ -84,19 +87,8 @@
     .header-middle-bottom{
         display: none;
     }
-    li.list-bag a {
-        display: block;
-        overflow: hidden;
-        height: 58px;
-        transform: translateX(11%);
-        width: 49px;
-    }
-    .list-bag span {
-        font-size: 20px;
-        color: #fff;
-        position: relative;
-        top: -34px;
-        left: 14px;
+    li.list-bag {
+        padding: 0 20px;
     }
     .row{
         margin: 0 auto !important;
@@ -129,8 +121,76 @@
         display: block;
     }
 }
+/* mobile : width <740px  */
+@media only screen and (max-width:46.1875em) {
+    .list-logo-header-phone{
+        display: none !important;
+    }
+    .list-logo {
+        margin-left: 50px !important;
+    }
+    .list-logo img{
+        width: 120px;
+    }
+    .list-logo-header a {
+        padding: 0 4px 0 !important;
 
-/* end mobi */
+    }
+    .product-add{
+        height: auto !important;
+    }
+    .product-more{
+        height: auto !important;
+    }
+    .product-content h1 {
+        font-size: 30px !important;
+    }
+    .list-product-content li{
+        display: block !important;
+    }
+    .list-product-content li img {
+        height: 5rem !important;
+    }
+    .product-img{
+        height: auto !important;
+    }
+    .product-img img{
+        height: auto !important;
+    }
+    .splide__arrow--prev {
+        left: 4em !important;
+    }
+    .splide__arrow--next {
+        right: 4em !important;
+    }
+    .splide__slide {
+        height: 500px !important;
+    }
+    .splide__slide__container {
+        height: 320px !important ;
+        margin-top: 89px !important;
+    }
+    .splide__slide__container a {
+        height: 272px !important;
+    }
+    .splide__slide img {
+        height: 284px !important;
+    }
+    .text-product {
+        left: 22% !important;
+    }
+    .title-product-original h1 {
+        font-size: 30px !important;
+    }
+    .content-product span{
+        height: 150px !important;
+        width: 150px !important;
+    }
+}
+/* tablet : width >= 740px and width <1024px */
+@media only screen and (min-width:46.1875em) and (max-width:63.9375em) {
+  
+}
 *{
     margin: 0;
     padding: 0;
@@ -328,17 +388,17 @@ a{
     padding-top: 58px;
 }
 li.list-search {
-    width: 232px;
     height: 41px;
-    margin-left: 30px;
-    margin-bottom: 25px;
+    width: 223px;
 }
 li.list-search a {
-    overflow: hidden;
+    background-image: url(../img/icon-sprites.png);
+    background-size: 100px 150px;
+    width: 35px;
+    height: 32px;
+    background-position: 0px -150px;
     display: block;
-    height: 43px;
-    width: 32px;
-    margin-bottom: 20px;
+    text-decoration: none;
 }
 
 li.list-search img {
@@ -350,27 +410,22 @@ li.list-search input{
 li.list-logo{
     margin-left: -117px;
 }
-li.list-bag {
-    width: 112px;
-}
 li.list-bag a {
+    background-image: url(../img/icon-sprites.png);
+    background-size: 100px 150px;
+    width: 26px;
+    height: 32px;
+    background-position: 0 -50px;
     display: block;
-    overflow: hidden;
-    height: 63px;
-    transform: translateX(9%);
-    width: 49px;
+    text-decoration: none;
 }
-li.list-bag img {
-    width: 115px;
-    height: 190px;
-    transform: translateY(-58px);
-}
-.list-bag span{
-    font-size: 20px;
+
+.list-bag span {
+    font-size: 17px;
     color: #fff;
     position: relative;
-    top: -45px;
-    left: 14px;
+    top: 5px;
+    left: 7px;
 }
 .header-middle-bottom{
     width: 100%;
@@ -494,12 +549,6 @@ li.list-bag img {
 /* end  */
 
 /* product */
-.product{
-    height: 1994px;
-}
-.product-add {
-    height: 665px;
-}
 .product-more{
     padding: 0;
     position: relative;
@@ -570,7 +619,6 @@ li.list-bag img {
     height: 666px;
 }
 .splide__slide__container {
-    height: 390px !important;
     width: 50%;
     margin: auto;
     margin-top: 130px;
@@ -604,15 +652,13 @@ li.list-bag img {
     display: none;
    
 }
-.product-add-1{
-    height: 665px;
-}
 .product-content{
     width: 50%;
     float: left;
     height: 100%;
     text-align: center;
     position: relative;
+    margin-bottom: 65px;
 }
 .product-content h1{
     font-family: SVN-Gotham,sans-serif;
