@@ -236,7 +236,7 @@ a{
 /* header */
 /* header top */
 .header{
-    height: 1000px;
+    height: 700px;
     background-image:url(../img/slide.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -399,6 +399,7 @@ li.list-search a {
     background-position: 0px -150px;
     display: block;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 li.list-search img {
@@ -481,7 +482,7 @@ li.list-bag a {
     line-height: normal;
     transform: translate(-50%, -50%);
     font-size: 45px;
-    margin-top: 160px;
+    margin-top: 60px;
     opacity: 0.8;
 }
 
